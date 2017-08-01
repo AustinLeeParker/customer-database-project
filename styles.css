@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+#img{
+    display: flex;
+     height: 300px;
+}
+#top_row{
+    display: flex;
+    text-align: center;
+}
+.text{
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+.img{
+    flex: 1;
+    margin: 10px;
+}
+body{
+    font-family: sans-serif;
+}
+hr{
+    border-top: 1px solid lightgreen;
+    width: 40%;
+}
+.social{
+    color: lightgreen;
+    filter: blur(5px);
+}
+.social:hover{
+    filter: none;
+}
