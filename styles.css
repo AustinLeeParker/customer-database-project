@@ -1,11 +1,12 @@
 h1{
     text-align: center;
     text-transform: uppercase;
-    padding: 10px;
+    padding-top: 30px;
 }
 #img{
     display: flex;
-     height: 300px;
+    height: 300px;
+    padding: 30px;
 }
 #top_row{
     display: flex;
