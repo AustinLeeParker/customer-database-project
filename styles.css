@@ -3,15 +3,6 @@ h1{
     text-transform: uppercase;
     padding-top: 30px;
 }
-#img{
-    display: flex;
-    height: 300px;
-    padding: 30px;
-}
-#top_row{
-    display: flex;
-    text-align: center;
-}
 .text{
     flex: 1;
     margin: 10px;
@@ -20,6 +11,7 @@ h1{
 .img{
     flex: 1;
     margin: 10px;
+    
 }
 body{
     font-family: sans-serif;
@@ -34,4 +26,13 @@ hr{
 }
 .social:hover{
     filter: none;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content{
+    width: 25%;
+    margin: 0px;
+    text-align: center;
 }
